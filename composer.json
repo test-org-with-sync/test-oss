@@ -1,0 +1,16 @@
+{
+  "name": "test-org-with-sync/test-oss",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.19"
+  }
+}
